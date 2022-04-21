@@ -1,0 +1,178 @@
+.form-main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding: 20px 30px;
+    box-shadow: -10px -10px 15px #fff, 10px 10px 15px rgba(0, 0, 0, 0.1), inset -5px -5px 15px #fff,
+        inset 5px 5px 15px rgba(0, 0, 0, 0.1);
+   
+}
+
+.Slider {
+    width: 100px;
+}
+
+/* footer */
+.footer{
+    padding-top: 100px;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.uudai{
+    position: relative;
+
+    padding: 40px;
+    padding-bottom: 20px;
+    
+}
+
+.banner1{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.banner2{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.banner3{
+    padding-bottom: 100px;
+}
+
+.items-thanhvien{
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+
+.text-thanhvien{
+    padding-top: 20px;
+    color: rgb(112, 112, 112);
+    
+}
+
+/* img */
+.imgTBGV{
+    width: 24px;
+    aspect-ratio: auto 24 / 24;
+    height: 24px;
+}
+
+.imgDSDL{
+    width: 24px;
+    aspect-ratio: auto 24 / 24;
+    height: 24px;
+}
+
+.imgER{
+    width: 24px;
+    aspect-ratio: auto 24 / 24;
+    height: 24px;
+}
+
+.imgPQP{
+    width: 24px;
+    aspect-ratio: auto 24 / 24;
+    height: 24px;
+}
+
+
+/* end-img */
+
+
+.TBGV{
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.DSDL{
+    display: flex;
+    flex-direction: row;
+}
+
+.ER{
+    display: flex;
+    flex-direction: row;
+}
+
+.PQP{
+    display: flex;
+    flex-direction: row;
+}
+
+.khuyenmaiyeuthich{
+    padding-top: 70px;
+}
+
+.itemsKhuyenmaiyeuthich-child{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.imgKMYT1{
+    padding: 25px;
+    border-radius: 40px;
+}
+
+
+.title{
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-right{
+    display: flex;
+    float: right;
+    
+}
+
+.duocnhaden{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.itemsDuocnhacden{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.imgDND{
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+}
+/* end-footer */

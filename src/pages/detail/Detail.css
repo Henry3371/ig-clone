@@ -1,0 +1,79 @@
+.chitiet{
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: rgba(230,234,237,1.00);
+    box-sizing: border-box;
+    
+}
+
+.ketquatimkiem{
+    width: 50%;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid lightgray;
+}
+
+.Contents{
+    padding-top: 30px;
+    margin-top: 30px;
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    /* box-shadow: -10px -10px 15px #fff, 10px 10px 15px rgba(0, 0, 0, 0.1), inset -5px -5px 15px #fff,
+        inset 5px 5px 15px rgba(0, 0, 0, 0.1); */
+}
+
+.Text{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.loai{
+    font-weight: lighter;
+    font-size: smaller;
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 98, 247);
+    border-radius: 15px;
+    width: fit-content;
+    padding: 5px
+
+}
+
+.img{
+    display: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.mainImg{
+    width: 80%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.imgMain{
+    border-radius: 5px;
+}
+
+.sideImg{
+    width: 20%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.imgSide{
+    border-radius: 5px;
+}

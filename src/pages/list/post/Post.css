@@ -1,0 +1,61 @@
+.PostTong:hover{
+    color: rgb(189, 189, 189);
+}
+
+.poster{
+    display: flex;
+    width: 700px;   
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: -10px -10px 15px #fff, 10px 10px 15px rgba(0, 0, 0, 0.1), inset -5px -5px 15px #fff,
+        inset 5px 5px 15px rgba(0, 0, 0, 0.1);
+      
+}
+
+
+
+.imgPoster{
+    width: 20%;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.NhomTen{
+    margin-left: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
+
+/* .rating{
+    justify-content: center;
+    margin-top: 20px;
+} */
+
+
+
+
+.GiaThanhToan{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    border-left: 1px solid lightgray;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnChon{
+    width: 50%;
+    margin-top: 30px;
+}
+
+.Gia{
+    /* margin-left: 30px; */
+    color: rgb(236, 89, 20);
+}
